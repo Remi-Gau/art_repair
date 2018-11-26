@@ -44,7 +44,7 @@ for i = 1:nscans
 end
 temp = art_nanstd(allvols);
 size(temp)
-STDvol(:,:,:) = temp(1,:,:,:);
+STDvol = temp(1,:,:,:);
 clear allvols;
 
 
